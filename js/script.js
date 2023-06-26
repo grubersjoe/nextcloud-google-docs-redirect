@@ -2,7 +2,7 @@
  * Parse Google Docs files to retrieve their edit link and redirect to it
  */
 
-const GOOGLE_DOCS_EXTENSIONS = [".gddoc", ".gdlink", ".gdsheets", ".gdslides"];
+const GOOGLE_DOCS_EXTENSIONS = [".gddoc", ".gdlink", ".gdsheets", ".gdslides", ".gdoc", ".glink", ".gform", ".gsheet", ".gslides"];
 
 $("#fileList").click((event) => {
   const fileLink = $(event.target).closest("a.name");
