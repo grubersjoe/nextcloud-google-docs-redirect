@@ -5,7 +5,7 @@
     <name>Google Docs Redirect</name>
     <summary>Open Google Docs files in a new tab</summary>
     <description><![CDATA[This app adds a few lines of JavaScript to open uploaded Google Docs documents (.gddoc etc.) in a new tab (redirect to Google Docs) instead of downloading them.]]></description>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <licence>agpl</licence>
     <author mail="gruberjonathan@gmail.com" homepage="https://jogruber.de">Jonathan Gruber</author>
     <namespace>GoogleDocsRedirect</namespace>
