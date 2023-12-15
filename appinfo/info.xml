@@ -14,6 +14,6 @@
     <website>https://jogruber.de/projects/nextcloud-google-docs-redirect/</website>
     <bugs>https://github.com/grubersjoe/nextcloud-google-docs-redirect/issues</bugs>
     <dependencies>
-        <nextcloud min-version="17"/>
+        <nextcloud min-version="17" max-version="28"/>
     </dependencies>
 </info>
