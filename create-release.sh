@@ -19,5 +19,5 @@ tar --exclude='dist' --exclude='.git' --exclude='.idea' \
 echo "Signature:"
 openssl dgst -sha512 -sign ~/.nextcloud/certificates/googledocsredirect.key dist/googledocsredirect.tar.gz | openssl base64
 
-echo "\nTag the commit and publish a release on GitHub"
-echo "Then visit: https://apps.nextcloud.com/developer/apps/releases/new"
+echo -e "\nTag the commit and publish a release on GitHub"
+echo -e "Then visit: https://apps.nextcloud.com/developer/apps/releases/new"
