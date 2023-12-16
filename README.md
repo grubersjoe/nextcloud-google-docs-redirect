@@ -19,5 +19,12 @@ The following file extensions are supported:
 
 For development, you need the following dependencies:
 
-- on mac OS: `gtar` (`brew install gnu-tar`)
-- [Prettier](https://prettier.io/) in your path (`brew install prettier`)
+- on mac OS: `gtar`: `brew install gnu-tar`
+- [Prettier](https://prettier.io/) in your path
+
+There is a Makefile to perform the following tasks:
+
+```sh
+make format 
+make release
+```
