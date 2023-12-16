@@ -14,9 +14,9 @@ const GOOGLE_DOCS_EXTENSIONS = [
   '.gslides',
 ];
 
-$('.files-fileList').on('click', (event) => {
-  const fileLink = $(event.target).closest('a.name');
-  const extension = fileLink.find('.extension').text();
+$(".files-list__row-name").click((event) => {
+  const fileLink = $(event.currentTarget).find("a");
+  const extension = fileLink.find(".files-list__row-name-ext").text();
 
   if (!GOOGLE_DOCS_EXTENSIONS.includes(extension) || !fileLink.attr('href')) {
     return;
@@ -29,7 +29,7 @@ $('.files-fileList').on('click', (event) => {
     .then((response) => response.json())
     .then((doc) => {
       if (doc.url) {
-        window.open(doc.url, '_blank', 'noopener,noreferrer').focus();
+        window.open(doc.url, '_blank', 'noopener,noreferrer');
       }
     })
     .catch(console.error);
