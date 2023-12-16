@@ -2,6 +2,8 @@
 set -e
 shopt -s expand_aliases
 
+make format
+
 # Use gnu-tar in mac OS
 if [[ "$OSTYPE" == darwin* ]]; then
   alias tar='gtar'
