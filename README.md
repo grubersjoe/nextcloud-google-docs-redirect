@@ -25,6 +25,6 @@ For development, you need the following dependencies:
 There is a Makefile to perform the following tasks:
 
 ```sh
-make format 
+make format
 make release
 ```
