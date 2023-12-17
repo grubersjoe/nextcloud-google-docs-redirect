@@ -14,7 +14,7 @@ const GOOGLE_DOCS_EXTENSIONS = [
   '.gslides',
 ];
 
-$('.files-list__row-name').on('click', (event) => {
+$(document).on('click', '.files-list__row-name', (event) => {
   const fileLink = $(event.currentTarget).find('a');
   const extension = fileLink.find('.files-list__row-name-ext').text();
 

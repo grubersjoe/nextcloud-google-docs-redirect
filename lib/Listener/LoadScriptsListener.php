@@ -15,6 +15,6 @@ class LoadScriptsListener implements IEventListener {
             return;
         }
 
-        Util::addScript(Application::APP_NAME, 'script');
+        Util::addScript(Application::APP_NAME, 'google-docs-redirect');
     }
 }
