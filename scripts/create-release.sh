@@ -5,12 +5,10 @@ shopt -s expand_aliases
 # Use gnu-tar in mac OS
 if [[ "$OSTYPE" == darwin* ]]; then
   alias tar='gtar'
-else
-  echo "nope"
 fi
 
 mkdir -p dist
-rm -f dist/*
+rm -rf dist/*
 tar --exclude='dist' --exclude='scripts' --exclude='.git' --exclude='.idea'  \
   -czf dist/googledocsredirect.tar.gz --transform 's,^,googledocsredirect/,' *
 
