@@ -1,12 +1,12 @@
 # Google Docs Redirect
 
-This Nextcloud app adds a few lines of JavaScript to open uploaded Google Docs
-documents in a new tab (redirect to Google Docs) instead of downloading them.
-
-> [!IMPORTANT] This plugin is deprecated and does not work for Nextcloud
-> versions newer than v28. See this
+> [!CAUTION]
+> This plugin is deprecated and does not work for Nextcloud versions newer than v28. See this
 > [comment](https://github.com/grubersjoe/nextcloud-google-docs-redirect/issues/8#issuecomment-2567125303)
 > for more context.
+
+This Nextcloud app adds a few lines of JavaScript to open uploaded Google Docs
+documents in a new tab (redirect to Google Docs) instead of downloading them.
 
 The following file extensions are supported:
 
