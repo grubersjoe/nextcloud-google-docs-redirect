@@ -11,18 +11,23 @@ The following file extensions are supported:
 - `.gdsheets`
 - `.gslides`
 - `.gdslides`
-- `.glink`
-- `.gdlink`
 - `.gform`
 
 ## Development
 
-For development, you need the following dependencies:
+Install the development dependencies:
 
-- on mac OS: `gtar`: `brew install gnu-tar`
-- [Prettier](https://prettier.io/) in your path
+```sh
+npm install
+```
 
-There is a Makefile to perform the following tasks:
+On macOS you need to install `gtar`, additionally:
+
+ ```sh
+  brew install gnu-tar
+  ```
+
+### Make commands
 
 ```sh
 make format
